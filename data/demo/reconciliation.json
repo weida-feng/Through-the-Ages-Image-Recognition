@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "scope": "public_20_game_demo",
+  "table_rows": {
+    "games": 20,
+    "players": 40,
+    "leader_slots": 160,
+    "wonders": 92,
+    "quality_findings": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "origin": "archived_models",
+  "sklearn_version": "0.24.1",
+  "historical_python_version": "3.8.8",
+  "leader": {
+    "pca_file": "pca.pkl",
+    "classifier_file": "knn.pkl",
+    "input_shape": [
+      48,
+      48
+    ],
+    "components": 48,
+    "classes": 48,
+    "training_samples": 6958
+  },
+  "wonder": {
+    "pca_file": "pca_w.pkl",
+    "classifier_file": "knn_w.pkl",
+    "input_shape": [
+      64,
+      120
+    ],
+    "components": 70,
+    "classes": 32,
+    "training_samples": 4980
+  },
+  "pca": {
+    "n_components": 0.95,
+    "whiten": true,
+    "random_state": 0
+  },
+  "knn": {
+    "n_neighbors": 3,
+    "weights": "uniform"
+  },
+  "note": "The author confirmed that leader and wonder models were trained by manually switching the same PCA/KNN notebook workflow. The current Python training module organizes that original method."
+}

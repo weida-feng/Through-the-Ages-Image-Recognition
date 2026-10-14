@@ -1,0 +1,8 @@
+﻿cohort,games,player_rows,unique_usernames,games_with_resignation,games_with_expiration,pending_review_games,definition
+completed,11963,23926,519,0,0,3,No resignation or expiration flag; primary descriptive population
+resigned,2594,5188,368,2594,17,0,"Any resignation flag, including games also carrying expiration flags"
+resigned_no_expiration,2577,5154,367,2577,0,0,Resigned games without any expiration flag
+all_processed,14557,29114,544,2594,17,3,All supplied canonical recognition games
+historical_5239,5239,10478,318,0,0,2,"Early 5239-game batch, for historical Excel comparison"
+later_6724,6724,13448,376,0,0,1,Later 6724-game completed batch
+completed_without_review_cases,11960,23920,519,0,0,0,Completed population excluding pending recognition review games

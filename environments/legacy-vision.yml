@@ -1,0 +1,17 @@
+# Minimal offline recognition environment, derived from the preserved base export.
+# Does not include the original mouse-control packages or the current analysis stack.
+name: tta-legacy-vision
+channels:
+  - defaults
+dependencies:
+  - python=3.8.8
+  - pip=24.0
+  - setuptools=68.2.2
+  - wheel=0.41.3
+  - pip:
+      - numpy==1.20.1
+      - scipy==1.6.2
+      - scikit-learn==0.24.1
+      - joblib==1.0.1
+      - threadpoolctl==2.1.0
+      - opencv-python==4.5.3.56

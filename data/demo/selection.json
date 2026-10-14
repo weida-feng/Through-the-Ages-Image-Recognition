@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "scope": "public_20_game_demo",
+  "historical_games": 14557,
+  "sample_games": 20,
+  "selection": "The same 20 games used for preserved screenshot verification",
+  "source_groups": {
+    "training_subset": 5,
+    "early_completed": 5,
+    "later_completed": 5,
+    "resigned": 5
+  },
+  "sample_is_random": false,
+  "table_rows": {
+    "games": 20,
+    "players": 40,
+    "leader_slots": 160,
+    "wonders": 92,
+    "quality_findings": 0
+  },
+  "identity_handling": "Game and username strings replaced by consistent sample-local pseudonyms; mapping retained privately",
+  "provenance_handling": "Original sequence, workbook row, source path and batch identifiers omitted",
+  "card_and_outcome_values": "Preserved from the checked historical preparation, including existing manual cleanup",
+  "interpretation": "Demonstrates table validation and aggregation; cannot reproduce or estimate the full-archive results",
+  "input_sha256": {
+    "games.csv": "3a0ec8a0db96077450d3aee9605ddc821b4e8bd759e08bc65b5891bfce81a58e",
+    "leader_slots.csv": "a643f5be1b03aaa51abc346d0b9db3fee98d41d65a73824d260875463c8305d7",
+    "players.csv": "a653e67d94e3281d550bfbc52d9d058eead12deb91474d735617635f524d3313",
+    "quality_findings.csv": "c4ff979801fe2a7ff61d5f771566137b0652c59b0ddffad18b45c0d68f6bafbe",
+    "wonders.csv": "b8da9de78b11cf27d7ba0fc001dae3112ff3d6b92140dfa221d78eee51209ece"
+  }
+}

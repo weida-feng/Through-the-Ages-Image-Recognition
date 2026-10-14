@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "original_project_year": 2022,
+  "refactoring_year": 2026,
+  "scope": "Summary of checks on the local full archive, with separate public-demo checks",
+  "full_archive": {
+    "canonical_games": 14557,
+    "canonical_batch_games": [
+      5239,
+      6724,
+      2594
+    ],
+    "training_games": 900,
+    "training_crops": {
+      "leader": 6958,
+      "wonder": 4980
+    },
+    "categories": {
+      "leader": 48,
+      "wonder": 32
+    },
+    "prepared_rows": {
+      "games": 14557,
+      "players": 29114,
+      "leader_slots": 116456,
+      "wonders": 77053
+    },
+    "reconciled_early_workbook_fields": 141453,
+    "mismatched_early_fields": 0,
+    "compared_saved_excel_values": 252,
+    "mismatched_saved_excel_values": 0,
+    "screenshots_completed": 20,
+    "candidate_crops": 234,
+    "saved_crop_reference_agreement": {
+      "matched": 199,
+      "compared": 199
+    },
+    "decoded_pixel_agreement": {
+      "matched": 185,
+      "compared": 185
+    },
+    "raw_card_list_agreement": {
+      "matched": 70,
+      "compared": 80
+    },
+    "raw_all_four_lists_game_agreement": {
+      "matched": 15,
+      "compared": 20
+    },
+    "empty_wonder_candidates": 10,
+    "wonder_candidates_compared_to_template": 102,
+    "diagnostic_card_list_agreement": {
+      "matched": 80,
+      "compared": 80
+    },
+    "diagnostic_overwrites_raw_predictions": false,
+    "automated_checks_covered": 49,
+    "original_files_checked_unchanged": 289,
+    "not_independent_test_accuracy": true
+  },
+  "local_evidence_sha256": {
+    "data/archive_manifest.json": "41a82752f35fc8f9ca635d3d082737bd5e040aee5bf4112012119c0fdfbec422",
+    "reports/statistics/analysis.json": "63189bdf883b1de71c5d31b11e0f7836a1eebaf48e5974a91bcc6be1334f08c4",
+    "reports/vision-verification/verification.json": "c202df8f3f8026462ee392b792ada7d8957c447b7c887c698ffd7f4b3f17308b"
+  },
+  "public_tests": {
+    "total": 37,
+    "analysis_passed": 35,
+    "analysis_skipped": 2,
+    "legacy_vision_passed": 21,
+    "legacy_vision_skipped": 16,
+    "all_covered_successfully": true,
+    "hosted_github_workflow_executed": true,
+    "hosted_github_workflow_verified_date": "2026-10-14",
+    "hosted_github_workflow_url": "https://github.com/weida-feng/Through-the-Ages-Image-Recognition/actions"
+  },
+  "public_demos": {
+    "analysis": {
+      "scope": "public_20_game_demo",
+      "sample_is_random": false,
+      "python_version": "3.12.14",
+      "pandas_version": "2.2.3",
+      "games": 20,
+      "players": 40,
+      "population_games": {
+        "demo_completed": 15,
+        "demo_resigned": 5,
+        "demo_all": 20
+      },
+      "card_categories": {
+        "leader": 48,
+        "wonder": 32
+      },
+      "metric_rows": 240,
+      "leader_coverage_rows": 12,
+      "input_sha256": {
+        "games.csv": "3a0ec8a0db96077450d3aee9605ddc821b4e8bd759e08bc65b5891bfce81a58e",
+        "leader_slots.csv": "a643f5be1b03aaa51abc346d0b9db3fee98d41d65a73824d260875463c8305d7",
+        "players.csv": "a653e67d94e3281d550bfbc52d9d058eead12deb91474d735617635f524d3313",
+        "quality_findings.csv": "c4ff979801fe2a7ff61d5f771566137b0652c59b0ddffad18b45c0d68f6bafbe",
+        "wonders.csv": "b8da9de78b11cf27d7ba0fc001dae3112ff3d6b92140dfa221d78eee51209ece"
+      },
+      "interpretation": "Sample-only statistics from a curated 20-game subset; not the published full-archive estimates"
+    },
+    "vision_output": "public-demo/vision/crop_predictions.json"
+  },
+  "model_sha256": {
+    "knn.pkl": "f807acf15a509730bf67f97b93bd1a31ea7577cb0de11311a68b409dbaec1e8b",
+    "knn_w.pkl": "e78d91fe5532fb10bf62684f7a80604cf7866daa079f48002cc3c6d76a6e9b87",
+    "pca.pkl": "1ac50e7048ebde64dfce0e8853edf030b4d186d61ad1640ad883db557cbb5215",
+    "pca_w.pkl": "92ff059bd16e1d7d697a0980bc626231b2d9628d0cf519af40c9da84df4ee71d"
+  },
+  "release_candidate_review": {
+    "checked_date": "2026-10-10",
+    "analysis_installation": {
+      "python": "3.12.14",
+      "system_site_packages": false,
+      "dependencies_installed_from_pinned_file": true,
+      "editable_package_from_extracted_zip": true,
+      "versions": {
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "openpyxl": "3.1.5",
+        "tta-image-pipeline": "0.1.0"
+      },
+      "public_tests": {
+        "total": 37,
+        "passed": 35,
+        "skipped": 2
+      },
+      "example_outputs_byte_identical": {
+        "sample_analysis.json": true,
+        "sample_card_statistics.csv": true,
+        "sample_leader_coverage.csv": true
+      },
+      "pip_check": "passed"
+    },
+    "vision_installation": {
+      "python": "3.8.8",
+      "architecture": "x86_64",
+      "system_site_packages": false,
+      "dependencies_installed_from_pinned_file": true,
+      "editable_package_from_extracted_zip": true,
+      "ignore_external_python_configuration": true,
+      "versions": {
+        "numpy": "1.20.1",
+        "scipy": "1.6.2",
+        "scikit-learn": "0.24.1",
+        "opencv-python": "4.5.3.56",
+        "joblib": "1.0.1",
+        "threadpoolctl": "2.1.0",
+        "tta-image-pipeline": "0.1.0"
+      },
+      "public_tests": {
+        "total": 37,
+        "passed": 21,
+        "skipped": 16
+      },
+      "example_output_byte_identical": true,
+      "models": {
+        "leader": {
+          "samples": 6958,
+          "classes": 48,
+          "features": 2304,
+          "dimensions": 48,
+          "pca_variance_target": 0.95,
+          "whiten": true,
+          "neighbors": 3,
+          "weights": "uniform"
+        },
+        "wonder": {
+          "samples": 4980,
+          "classes": 32,
+          "features": 7680,
+          "dimensions": 70,
+          "pca_variance_target": 0.95,
+          "whiten": true,
+          "neighbors": 3,
+          "weights": "uniform"
+        }
+      },
+      "pip_check": "passed"
+    },
+    "content_checks": {
+      "full_statistic_rows_checked": 560,
+      "historical_excel_numeric_comparisons": 252,
+      "public_text_files_scanned": 69,
+      "original_game_ids_compared": 14557,
+      "public_player_identifiers": 38,
+      "original_game_id_leaks": 0,
+      "credential_pattern_matches": 0,
+      "public_sample_usernames_are_pseudonyms": true,
+      "largest_file_mib": 4.16
+    },
+    "functional_files_unchanged_from_tested_zip": true,
+    "hosted_github_workflow_executed": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "origin": "current_python_automation_of_historical_excel_statistics",
+  "python_version": "3.12.14",
+  "pandas_version": "2.2.3",
+  "primary_cohort": "completed",
+  "cohort_games": {
+    "completed": 11963,
+    "resigned": 2594,
+    "resigned_no_expiration": 2577,
+    "all_processed": 14557,
+    "historical_5239": 5239,
+    "later_6724": 6724,
+    "completed_without_review_cases": 11960
+  },
+  "card_categories": {
+    "leader": 48,
+    "wonder": 32
+  },
+  "table_rows": {
+    "card_statistics": 560,
+    "leader_coverage": 28,
+    "cohorts": 7,
+    "sensitivity": 400,
+    "historical_comparison": 84
+  },
+  "selection_rate_definition": "Card uses / cohort games; not player rows or estimated card availability",
+  "win_rate_definition": "Winning uses / all uses of that card in the cohort",
+  "wilson_z": 1.96,
+  "interpretation": "Descriptive observed associations. Repeated players, other card choices, game state and card availability are not controlled; Wilson intervals are nominal binomial summaries without dependence or multiple-comparison adjustment.",
+  "prepared_sha256": {
+    "games.csv": "041ce5d558bbfd5df6caafc5377d267a25a1e1d82134a7b30c3cf2bc09be811f",
+    "historical_cleanup.csv": "464a15f452621feb92025fc0f1fb2f6225e2fb860344abdbb2efdd240f03be20",
+    "leader_slots.csv": "c4f5b4db113d0938d68701b11bbde702151646b4220f1615fd6e7d3206d0e429",
+    "players.csv": "7651afa768ddcc80ad0e9ca457afb387222466681bf2746ce98aa33fd49d067d",
+    "quality_findings.csv": "03761099131c96bba19b9c273ffc1e792ce6a37e1fac4d0d696dbf6f68dde5a2",
+    "source_discrepancies.csv": "967a96a952a0500be0a45d80c3b9b5436ff8dcfe9870ff93974e86cba98f9942",
+    "unprocessed_source_games.csv": "f337bcdad1e4473a6ff9e61f538ab157edcd26df5ce72cc502bdc11fefcfcc06",
+    "wonders.csv": "92530bf284d45240aaafb1c4438098f8a82edc9c5e30ca97842b007ea76ac298",
+    "reconciliation.json": "0ad409b4735bd8351da627364bbcf59db6ca363c9c9c482ca5a9cd18409d0877"
+  },
+  "historical_excel_comparison": {
+    "source_file": "source_workbooks/5239.xlsx",
+    "source_sheet": "統計",
+    "openpyxl_version": "3.1.5",
+    "source_sha256": "64de1eb87af409e84ee0837d2907900597e975706c0c48f049f41f9beea079b5",
+    "reference_games": 5239,
+    "compared_rows": 84,
+    "actual_card_rows": 80,
+    "absent_leader_rows": 4,
+    "compared_values": 252,
+    "mismatched_values": 0,
+    "historical_score_scales": [
+      0.4645,
+      0.4646,
+      0.4656,
+      0.4688,
+      0.471
+    ],
+    "note": "Compared preserved formula text and saved Excel values with Python recomputation; the workbook was not edited or recalculated in native Excel."
+  },
+  "plotting": {
+    "matplotlib_version": "3.11.2",
+    "font_family": "Microsoft YaHei",
+    "font_file": "msyh.ttf"
+  },
+  "figures": [
+    "leaders_completed_win_rates.png",
+    "leaders_completed_win_rates.svg",
+    "wonders_completed_win_rates.png",
+    "wonders_completed_win_rates.svg",
+    "completed_selection_rates.png",
+    "completed_selection_rates.svg"
+  ]
+}

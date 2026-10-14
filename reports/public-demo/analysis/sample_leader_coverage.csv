@@ -1,0 +1,13 @@
+﻿cohort,age,age_index,cohort_games,player_slots,present_slots,absent_slots,present_rate,absent_wins,absent_losses
+demo_completed,A,0,15,30,28,2,0.9333333333333333,0,2
+demo_completed,I,1,15,30,30,0,1.0,0,0
+demo_completed,II,2,15,30,28,2,0.9333333333333333,2,0
+demo_completed,III,3,15,30,27,3,0.9,1,2
+demo_resigned,A,0,5,10,10,0,1.0,0,0
+demo_resigned,I,1,5,10,7,3,0.7,1,2
+demo_resigned,II,2,5,10,2,8,0.2,5,3
+demo_resigned,III,3,5,10,0,10,0.0,5,5
+demo_all,A,0,20,40,38,2,0.95,0,2
+demo_all,I,1,20,40,37,3,0.925,1,2
+demo_all,II,2,20,40,30,10,0.75,7,3
+demo_all,III,3,20,40,27,13,0.675,6,7

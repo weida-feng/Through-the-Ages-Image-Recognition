@@ -1,0 +1,51 @@
+{
+  "scope": "selected_crop_demo",
+  "python_version": "3.8.8",
+  "examples": [
+    {
+      "file": "leader_confucius.jpg",
+      "kind": "leader",
+      "reference_label": "孔子",
+      "is_empty": false,
+      "raw_prediction": "孔子",
+      "input_sha256": "4bb0e29d2a2396c5ae225ede7fa5413827dc9523b21fb52346cd61ebd5fa3adc",
+      "reference_agreement": true
+    },
+    {
+      "file": "wonder_great_library.jpg",
+      "kind": "wonder",
+      "reference_label": "大图书馆",
+      "is_empty": false,
+      "raw_prediction": "大图书馆",
+      "input_sha256": "3d96805d65ed722c6983486728f84df02ab934d7c8a462d3b79c06e882834c60",
+      "reference_agreement": true,
+      "empty_template_difference": 181286,
+      "empty_candidate": false
+    },
+    {
+      "file": "wonder_silk_road.jpg",
+      "kind": "wonder",
+      "reference_label": "丝绸之路",
+      "is_empty": false,
+      "raw_prediction": "丝绸之路",
+      "input_sha256": "88899a6ecdffa0e91c4a657ef1a84277c9e5804b5c53c91b9574a39d925d5313",
+      "reference_agreement": true,
+      "empty_template_difference": 128913,
+      "empty_candidate": false
+    },
+    {
+      "file": "empty_wonder.jpg",
+      "kind": "wonder",
+      "reference_label": null,
+      "is_empty": true,
+      "raw_prediction": "丝绸之路",
+      "input_sha256": "9931a642d502822a928fa8c46641e40ff76902eafec9cd157f963cbf2352f742",
+      "reference_agreement": null,
+      "empty_template_difference": 550,
+      "empty_candidate": true
+    }
+  ],
+  "empty_threshold": 5000,
+  "applied_to_raw_predictions": false,
+  "interpretation": "Three historical-reference agreements and one empty-region failure; not held-out accuracy or a full screenshot run"
+}
