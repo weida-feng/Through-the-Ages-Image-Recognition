@@ -13,7 +13,7 @@
     "Legacy notebooks and full environment export"
   ],
   "files_count_excluding_manifest": 83,
-  "bytes_excluding_manifest": 13072147,
+  "bytes_excluding_manifest": 13072311,
   "code_license": "MIT",
   "license_scope_file": "LICENSE_SCOPE.md",
   "materials_outside_code_license": [
@@ -45,8 +45,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9403,
-      "sha256": "e245b21b50ec273f22b8d49fe80fa31d0d20c75520904b9c26a5d54d29cac1d7"
+      "bytes": 9567,
+      "sha256": "2e65e4e05f5601de174a9728e3f3db2dca6353664604fff0829c0855dfbe1f0f"
     },
     {
       "path": "THIRD_PARTY.md",

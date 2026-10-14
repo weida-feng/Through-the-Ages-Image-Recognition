@@ -54,7 +54,13 @@ The primary analysis contains **11,963 games with neither resignation nor expira
 | Adding resigned games changes individual card win rates by up to **2.02 percentage points** | Show sensitivity to the population definition                |
 | Excluding three pending recognition review cases changes primary-population win rates by at most **0.17 percentage points** | Quantify their aggregate effect while keeping the cases open for review |
 
+**Leaders**
+
 ![Observed leader win rates by age, with use counts and nominal 95% Wilson intervals](reports/statistics/leaders_completed_win_rates.png)
+
+**Wonders**
+
+![Observed wonder win rates by age, with use counts and nominal 95% Wilson intervals](reports/statistics/wonders_completed_win_rates.png)
 
 **Selection rate = card uses / games. Observed win rate = winning uses / card uses.** Counts and nominal 95% Wilson intervals accompany the estimates. Player ability, game state, other card choices, and card availability are not controlled; intervals do not adjust for repeated-player dependence. These are descriptive associations, not a causal ranking of card strength.
 
@@ -101,7 +107,7 @@ See [code organization and project history](docs/code_organization.md).
 ## Repository contents
 
 ```text
-src/tta_pipeline/       Recognition, validation, preparation, and analysis
+src/tta_pipeline/      Recognition, validation, preparation, and analysis
 examples/              Public analysis and selected-crop demonstrations
 data/demo/             Pseudonymized, curated 20-game sample
 assets/                Original models, selected crops, and empty template
