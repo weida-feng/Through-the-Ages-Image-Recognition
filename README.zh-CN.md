@@ -111,7 +111,7 @@ python examples/recognize_crops.py --output results/demo-vision
 ## 仓库内容
 
 ```text
-src/tta_pipeline/       识别、验证、数据准备与分析
+src/tta_pipeline/      识别、验证、数据准备与分析
 examples/              公开分析与选定裁剪图的演示
 data/demo/             使用化名的精选 20 场对局样本
 assets/                原始模型、选定裁剪图和空白模板
