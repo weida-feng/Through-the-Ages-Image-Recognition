@@ -12,8 +12,8 @@
     "Identity mapping",
     "Legacy notebooks and full environment export"
   ],
-  "files_count_excluding_manifest": 83,
-  "bytes_excluding_manifest": 13072311,
+  "files_count_excluding_manifest": 84,
+  "bytes_excluding_manifest": 13081384,
   "code_license": "MIT",
   "license_scope_file": "LICENSE_SCOPE.md",
   "materials_outside_code_license": [
@@ -45,8 +45,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 9567,
-      "sha256": "2e65e4e05f5601de174a9728e3f3db2dca6353664604fff0829c0855dfbe1f0f"
+      "bytes": 9614,
+      "sha256": "8170c8d5d20e2990c3d9fd3b3fde29e36f23fa1f9b3d7f3925a36c6e57e18c39"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 9026,
+      "sha256": "b41f091a6aa0c50a7baf9be8005f118818c5392700cf8c5c25be3dedeffb6493"
     },
     {
       "path": "THIRD_PARTY.md",
