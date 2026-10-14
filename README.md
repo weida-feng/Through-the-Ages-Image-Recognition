@@ -1,5 +1,7 @@
 # Through the Ages — Image Recognition & Data Pipeline
 
+**English** | [简体中文](README.zh-CN.md)
+
 A personal project by **Weida Feng** · **Original work: 2022 · Code organization and additional verification: 2026**
 
 Which cards do players choose, and how often do the players using them win?
